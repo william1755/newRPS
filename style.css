@@ -1,0 +1,64 @@
+.body {
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+}
+
+.content {
+    display: flex;
+    gap: 100px;
+    flex-direction: column;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+
+}
+
+button {
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    width: 300px;
+}
+
+#lockInBtn {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    margin: 100px 30px;
+    padding: 100px;
+    border: solid;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.pt {
+    margin: 100px;
+}
+
+#winnerStats {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 50px;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+}
