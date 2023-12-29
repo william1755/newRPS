@@ -48,6 +48,7 @@ h1 {
 
 .pt {
     margin: 100px;
+    justify-content: space-around ;
 }
 
 #winnerStats {
@@ -61,4 +62,14 @@ h1 {
 .info {
     display: flex;
     justify-content: center;
+}
+
+#score {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: black solid 5px;
+    margin: 100px 200px;
+
 }
